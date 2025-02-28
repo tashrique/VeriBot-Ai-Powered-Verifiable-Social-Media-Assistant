@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "text": "Flare is revolutionizing the blockchain space!",
+        "author": "CryptoGuru",
+        "timestamp": "2025-02-28T12:00:00Z"
+    },
+    {
+        "id": "2",
+        "text": "What are the best DeFi projects on Flare Network?",
+        "author": "DeFiExplorer",
+        "timestamp": "2025-02-28T12:05:00Z"
+    },
+    {
+        "id": "3",
+        "text": "AI and blockchain integration is the future!",
+        "author": "TechVisionary",
+        "timestamp": "2025-02-28T12:10:00Z"
+    },
+    {
+        "id": "4",
+        "text": "Is Flare Network the best Layer 1 blockchain? Let's discuss.",
+        "author": "BlockchainTalk",
+        "timestamp": "2025-02-28T12:15:00Z"
+    },
+    {
+        "id": "5",
+        "text": "How can I start building dApps on Flare? Need some resources!",
+        "author": "NewbieDev",
+        "timestamp": "2025-02-28T12:20:00Z"
+    }
+]
