@@ -1,55 +1,92 @@
-# VeriBot - AI-Powered Verifiable Social Media Assistant
+# VeriBot: AI-Powered Verifiable Social Media Assistant
 
-Live Deployment: [Under Construction]()
+VeriBot is an AI-powered social media assistant that monitors Twitter for relevant conversations about blockchain, crypto, and AI topics, and provides helpful, verifiable responses.
 
-Video Demo: [UnderConstruction]()
+## Features
 
-## 📌 Overview
-**VeriBot** is an AI-powered Twitter assistant that monitors tweets related to Flare, Blockchain, and AI, classifies them, generates intelligent responses, and verifies AI-generated responses using blockchain. The goal is to enhance transparency and prevent misinformation by leveraging AI and blockchain.
+- **Tweet Classification**: Automatically categorizes tweets into relevant topics
+- **AI Response Generation**: Generates informative responses using Gemini AI
+- **Content Safety**: Filters responses to prevent harmful or misleading content
+- **Mock Mode**: Test functionality without posting to Twitter
 
-## 🚀 Features
-- **Monitors Tweets** related to Web3, Blockchain, and Flare.
-- **Classifies tweets** using AI models.
-- **Generates AI-powered responses** with GPT-4 or Gemini.
-- **Logs responses on-chain** for transparency and integrity.
-- **Uses Flare’s TEE verification** to ensure verifiable AI execution.
+## Project Structure
 
-## 🔧 Tech Stack
-| **Component**  | **Technology** |
-|--------------|---------------|
-| Backend API | FastAPI (Python) |
-| AI Processing | OpenAI GPT-4 / Gemini |
-| Blockchain | Flare Network, Solidity |
-| Database (Optional) | PostgreSQL / Firebase |
-| Twitter API | Tweepy (Python) |
+The project follows a modular structure:
 
-## 🏗️ Setup Guide
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/yourusername/veribot.git
-cd veribot
+```
+veribot/
+├── __init__.py         # Package initialization
+├── config.py           # Configuration and environment variables
+├── main.py             # Main entry point
+├── api/                # API interaction modules
+│   ├── __init__.py
+│   └── twitter.py      # Twitter API functions
+├── classification/     # Classification modules
+│   ├── __init__.py
+│   ├── categories.py   # Classification categories and templates
+│   └── classifier.py   # Tweet classification logic
+├── ai/                 # AI modules
+│   ├── __init__.py
+│   └── responder.py    # AI response generation and filtering
+└── utils/              # Utility modules
+    ├── __init__.py
+    └── logger.py       # Logging utilities
 ```
 
-### **2. Install Dependencies**
-```bash
-pip install -r requirements.txt
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/veribot.git
+   cd veribot
+   ```
+
+2. Create a virtual environment:
+   ```
+   python -m venv veribot-env
+   source veribot-env/bin/activate  # On Windows: veribot-env\Scripts\activate
+   ```
+
+3. Install dependencies:
+   ```
+   pip install -e .
+   ```
+
+4. Create a `.env` file with your API keys:
+   ```
+   TWITTER_BEARER_TOKEN=your_twitter_bearer_token
+   GEMINI_API_KEY=your_gemini_api_key
+   ```
+
+## Usage
+
+Run the bot:
+
+```
+python -m veribot.main
 ```
 
-### **3. Set Up Twitter API Keys**
-- Register on [Twitter Developer Portal](https://developer.twitter.com/)
-- Add API credentials in `.env` file
+Or use the command-line interface:
 
-### **4. Deploy Smart Contract**
-- Use Remix IDE or Hardhat to deploy `AIResponseLogger.sol`
-- Update contract address in `config.py`
-
-### **5. Run the Bot**
-```bash
-python main.py
+```
+veribot --keyword "Flare Network" --count 10 --live
 ```
 
-## 📌 Contribution
-Feel free to submit PRs or open issues to improve VeriBot!
+## Development
 
-## 🏆 License
-This project is licensed under the **MIT License**.
+### Running Tests
+
+```
+pytest
+```
+
+### Building Documentation
+
+```
+cd docs
+make html
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

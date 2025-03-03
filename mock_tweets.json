@@ -1,62 +1,212 @@
 [
     {
         "id": "1",
-        "text": "Flare is revolutionizing the blockchain space!",
+        "text": "Flare is revolutionizing the blockchain space! The FTSO system is genius for decentralized price feeds. What are your thoughts on their oracle solution vs Chainlink?",
         "author": "CryptoGuru",
         "timestamp": "2025-02-28T12:00:00Z"
     },
     {
-        "id": "2",
-        "text": "What are the best DeFi projects on Flare Network?",
+        "id": "2", 
+        "text": "Looking for recommendations on the best DeFi projects building on Flare Network. Particularly interested in yield farming and lending protocols. Any suggestions for high APY but relatively safe options?",
         "author": "DeFiExplorer",
         "timestamp": "2025-02-28T12:05:00Z"
     },
     {
         "id": "3",
-        "text": "AI and blockchain integration is the future!",
-        "author": "TechVisionary",
+        "text": "How does AI actually integrate with blockchain? I keep hearing about AI oracles and smart contracts but don't fully understand the technical implementation. Can someone explain?",
+        "author": "TechVisionary", 
         "timestamp": "2025-02-28T12:10:00Z"
     },
     {
         "id": "4",
-        "text": "Is Flare Network the best Layer 1 blockchain? Let's discuss.",
+        "text": "Comparing Layer 1 blockchains: Flare vs Ethereum vs Solana vs Avalanche. Flare's FAssets and State Connector seem unique, but what about TPS and finality? Let's analyze the tech specs.",
         "author": "BlockchainTalk",
         "timestamp": "2025-02-28T12:15:00Z"
     },
     {
         "id": "5",
-        "text": "How can I start building dApps on Flare? Need some resources!",
+        "text": "Complete beginner here! Want to start building dApps on Flare but don't know where to begin. What programming languages should I learn first? Are there any good tutorials or documentation?",
         "author": "NewbieDev",
         "timestamp": "2025-02-28T12:20:00Z"
     },
     {
         "id": "6",
-        "text": "VeriBot is an amazing tool for verifying social media content!",
+        "text": "Just used VeriBot to analyze a viral crypto thread - it caught multiple instances of market manipulation and fake endorsements. The AI detection is incredibly accurate! #CryptoSecurity",
         "author": "SocialMediaExpert",
         "timestamp": "2025-02-28T12:25:00Z"
     },
     {
         "id": "7",
-        "text": "Just used VeriBot to fact-check a viral tweet. Highly recommend!",
+        "text": "Fascinating how VeriBot combines sentiment analysis with blockchain verification. Used it to check a thread about a new DeFi protocol - saved me from a potential rug pull! This tool is essential for DYOR.",
         "author": "FactChecker",
         "timestamp": "2025-02-28T12:30:00Z"
     },
     {
         "id": "8",
-        "text": "Can VeriBot help in identifying fake news on social media?",
+        "text": "Question about VeriBot's capabilities: Can it detect AI-generated images and deep fakes? Also curious about its accuracy rate for identifying coordinated FUD campaigns in crypto communities.",
         "author": "NewsAnalyst",
         "timestamp": "2025-02-28T12:35:00Z"
     },
     {
         "id": "9",
-        "text": "Exploring the capabilities of VeriBot for social media verification.",
+        "text": "Deep dive into VeriBot's architecture: The combination of transformer models and blockchain timestamping is brilliant. Would love to understand more about how it handles cross-chain verification.",
         "author": "TechBlogger",
         "timestamp": "2025-02-28T12:40:00Z"
     },
     {
         "id": "10",
-        "text": "VeriBot + Flare Network = Powerful combination for secure social media!",
+        "text": "The integration of VeriBot with Flare's State Connector is a game-changer for social media verification. Real-time cross-chain data validation + AI analysis = Powerful truth engine! 🚀 #FlareNetwork #Web3",
         "author": "BlockchainEnthusiast",
         "timestamp": "2025-02-28T12:45:00Z"
+    },
+    {
+        "id": "11",
+        "text": "What's the environmental impact of Flare compared to other PoS networks? Looking for actual data on energy consumption per transaction. #GreenBlockchain",
+        "author": "EcoTechie",
+        "timestamp": "2025-02-28T12:50:00Z"
+    },
+    {
+        "id": "12",
+        "text": "Help needed! Getting 'insufficient gas' errors when trying to deploy my first smart contract on Flare testnet. Using Hardhat and following the docs. Any troubleshooting tips?",
+        "author": "Web3Developer",
+        "timestamp": "2025-02-28T12:55:00Z"
+    },
+    {
+        "id": "13",
+        "text": "Exploring NFT use cases on Flare. The low gas fees make it perfect for gaming assets. Working on a P2E game with cross-chain NFT trading - any devs interested in collaborating?",
+        "author": "GameDevPro",
+        "timestamp": "2025-02-28T13:00:00Z"
+    },
+    {
+        "id": "14",
+        "text": "Can someone explain impermanent loss in liquidity pools? Considering providing liquidity on Flare DEXes but want to understand the risks first. #DeFiNewbie",
+        "author": "CryptoLearner",
+        "timestamp": "2025-02-28T13:05:00Z"
+    },
+    {
+        "id": "15",
+        "text": "Implementing VeriBot's API in our news platform has reduced misinfo by 73%! The real-time fact-checking and source verification is incredible. Happy to share our implementation case study.",
+        "author": "MediaInnovator",
+        "timestamp": "2025-02-28T13:10:00Z"
+    },
+    {
+        "id": "16",
+        "text": "How does Flare's consensus mechanism differ from traditional PoS? Particularly interested in the role of FTSO providers in network security.",
+        "author": "ConsensusExpert",
+        "timestamp": "2025-02-28T13:15:00Z"
+    },
+    {
+        "id": "17",
+        "text": "Building a cross-chain DEX on Flare. Looking for feedback on optimizing gas efficiency and reducing latency in cross-chain swaps. Any experienced devs willing to review my code?",
+        "author": "DeFiBuilder",
+        "timestamp": "2025-02-28T13:20:00Z"
+    },
+    {
+        "id": "18",
+        "text": "What's the best way to integrate VeriBot's verification system into a mobile app? Working on a social media client that needs real-time fact-checking.",
+        "author": "MobileDevPro",
+        "timestamp": "2025-02-28T13:25:00Z"
+    },
+    {
+        "id": "19",
+        "text": "Analyzing the tokenomics of new Flare-based projects. What metrics should I focus on? Looking for a comprehensive framework beyond just supply and distribution.",
+        "author": "TokenAnalyst",
+        "timestamp": "2025-02-28T13:30:00Z"
+    },
+    {
+        "id": "20",
+        "text": "How does Flare handle smart contract upgrades? Working on a DeFi protocol and need to understand best practices for contract upgradeability and governance.",
+        "author": "SmartContractDev",
+        "timestamp": "2025-02-28T13:35:00Z"
+    },
+    {
+        "id": "21",
+        "text": "Researching zero-knowledge proofs on Flare. Any resources on implementing zk-SNARKs in smart contracts? Trying to build a privacy-preserving voting system.",
+        "author": "PrivacyTech",
+        "timestamp": "2025-02-28T13:40:00Z"
+    },
+    {
+        "id": "22",
+        "text": "VeriBot just flagged a coordinated pump-and-dump scheme across multiple platforms! The pattern recognition capabilities are impressive. #CryptoSecurity",
+        "author": "SecurityResearcher",
+        "timestamp": "2025-02-28T13:45:00Z"
+    },
+    {
+        "id": "23",
+        "text": "What's the roadmap for Flare's cross-chain interoperability? Particularly interested in upcoming bridge protocols and security measures.",
+        "author": "BridgeExplorer",
+        "timestamp": "2025-02-28T13:50:00Z"
+    },
+    {
+        "id": "24",
+        "text": "Building an AI-powered trading bot on Flare. How can I optimize MEV protection? Also looking into flash loan arbitrage opportunities.",
+        "author": "AlgoTrader",
+        "timestamp": "2025-02-28T13:55:00Z"
+    },
+    {
+        "id": "25",
+        "text": "Exploring Flare's native NFT standards. How do they compare to ERC-721/1155? Working on a cross-chain NFT marketplace with unique features.",
+        "author": "NFTDeveloper",
+        "timestamp": "2025-02-28T14:00:00Z"
+    },
+    {
+        "id": "26",
+        "text": "How does VeriBot handle multi-language content verification? Building a global news aggregator and need robust fact-checking across different languages.",
+        "author": "GlobalMedia",
+        "timestamp": "2025-02-28T14:05:00Z"
+    },
+    {
+        "id": "27",
+        "text": "Deep diving into Flare's governance mechanism. How can we improve proposal visibility and voter participation? Looking for innovative solutions.",
+        "author": "GovResearcher",
+        "timestamp": "2025-02-28T14:10:00Z"
+    },
+    {
+        "id": "28",
+        "text": "Working on a decentralized identity solution using Flare's State Connector. Any insights on implementing selective disclosure and credential verification?",
+        "author": "IdentityBuilder",
+        "timestamp": "2025-02-28T14:15:00Z"
+    },
+    {
+        "id": "29",
+        "text": "How does VeriBot handle real-time market manipulation detection? Building a DEX with integrated security features and need insights on implementation.",
+        "author": "DEXBuilder",
+        "timestamp": "2025-02-28T14:20:00Z"
+    },
+    {
+        "id": "30",
+        "text": "Exploring Layer 2 scaling solutions on Flare. What's the current state of rollups and state channels? Working on a high-frequency trading platform.",
+        "author": "ScalingExpert",
+        "timestamp": "2025-02-28T14:25:00Z"
+    },
+    {
+        "id": "31",
+        "text": "Implementing VeriBot in our social media monitoring tool. The API documentation is great, but looking for best practices on rate limiting and caching.",
+        "author": "APIIntegrator",
+        "timestamp": "2025-02-28T14:30:00Z"
+    },
+    {
+        "id": "32",
+        "text": "Building a prediction market on Flare. How can we ensure oracle reliability for event outcomes? Also interested in implementing automated market makers.",
+        "author": "PredictionDev",
+        "timestamp": "2025-02-28T14:35:00Z"
+    },
+    {
+        "id": "33",
+        "text": "Researching cross-chain atomic swaps on Flare. Looking for insights on handling timeouts and edge cases in multi-party transactions.",
+        "author": "SwapProtocolDev",
+        "timestamp": "2025-02-28T14:40:00Z"
+    },
+    {
+        "id": "34",
+        "text": "How does VeriBot's machine learning model handle evolving disinformation tactics? Interested in the continuous learning aspects of the system.",
+        "author": "MLResearcher",
+        "timestamp": "2025-02-28T14:45:00Z"
+    },
+    {
+        "id": "35",
+        "text": "Developing a DAO framework on Flare. Looking for feedback on quadratic voting implementation and sybil resistance mechanisms.",
+        "author": "DAOBuilder",
+        "timestamp": "2025-02-28T14:50:00Z"
     }
 ]
