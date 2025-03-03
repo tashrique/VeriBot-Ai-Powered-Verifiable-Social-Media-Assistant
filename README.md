@@ -1,6 +1,7 @@
 # VeriBot: AI-Powered Verifiable Social Media Assistant
 
 VeriBot is an AI-powered social media assistant that monitors Twitter for relevant conversations about blockchain, crypto, and AI topics, and provides helpful, verifiable responses.
+[![Maintainability](https://api.codeclimate.com/v1/badges/b384a1c1950ac229bb23/maintainability)](https://codeclimate.com/github/tashrique/VeriBot-Ai-Powered-Verifiable-Social-Media-Assistant/maintainability)
 
 ## Features
 
